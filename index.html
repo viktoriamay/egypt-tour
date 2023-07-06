@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/mainStyles.css" />
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+  <body>
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего
+          телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank"
+            >FIGMA | Макеты для верстки</a
+          >
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank"
+            >Telegram-бота</a
+          >
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapper">
+            <div class="header__wrapper-left">
+              <a href="index.html" class="header__logo">EgyptTour</a>
+              <span class="header__delimiter"></span>
+              <div class="header__search_wrapper">
+                <button class="header__search_button">
+                  <img src="./img/icons/search.svg" alt="" />
+                </button>
+                <input type="text" class="header__search" placeholder="Search" />
+              </div>
+            </div>
+            <nav class="header__links_wrapper">
+              <ul class="header__links_list">
+                <li class="header__link_item">
+                  <a href="/" class="header__link">Home</a>
+                </li>
+                <li class="header__link_item">
+                  <a href="/" class="header__link">Guides</a>
+                </li>
+                <li class="header__link_item">
+                  <a href="/" class="header__link">About</a>
+                </li>
+                <li class="header__link_item">
+                  <a href="/" class="header__link">Inspiration</a>
+                </li>
+                <li class="header__link_item">
+                  <a href="/" class="header__link">Contact</a>
+                </li>
+                <li class="header__link_item">
+                  <button class="header__button">Sign Up</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <h1>the</h1>
+      </header>
     </div>
-
-</body>
+  </body>
 </html>

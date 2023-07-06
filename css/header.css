@@ -1,0 +1,58 @@
+@import url('./variables.css');
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.header__wrapper-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.header__logo {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.header__delimiter {
+  width: 2px;
+  height: 32px;
+  background-color: var(--black);
+  opacity: 30%;
+}
+.header__search_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+  gap: 12px;
+}
+.header__search_button {
+  background-color: transparent;
+}
+.header__search {
+  height: 100%;
+  font-size: 16px;
+  color: var(--black);
+  opacity: 30%;
+}
+.header__links_wrapper {
+}
+.header__links_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.header__link_item {
+}
+.header__link {
+}
+.header__button {
+  font-size: 17px;
+  padding: 20px 30px;
+  border-radius: 12px;
+}
